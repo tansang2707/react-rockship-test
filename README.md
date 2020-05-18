@@ -7,7 +7,7 @@ Cần Cài đặt:
 - npm v6
 
 Các lệnh chạy app:
-- git clone https://github.com/tansang2707/RockShip-Test.git
-- cd RockShip-Test
+- git clone https://github.com/tansang2707/react-rockship-test.git
+- cd react-rockship-test
 - npm i
 - npm start
