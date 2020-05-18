@@ -1,0 +1,36 @@
+.my-add-photo-card{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    border-radius:8px;
+    .card-content{
+        flex:1
+    }
+    .card-image{
+        background-color: #aaa;
+        border-radius:8px;
+        cursor: pointer;
+    }
+    .add-icon{
+        position: absolute;
+        color:#fff;
+        top:40%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        font-size:100px
+    }
+    .my-title{
+        cursor: pointer;
+        font-size: 22px !important;
+    }
+    .card-footer{
+        position: absolute;
+        background-color: #fff;
+        padding:12px;
+        width: 100%;
+        bottom:0;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+
+    }
+}

@@ -1,0 +1,39 @@
+.my-card{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    img{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .card-content{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-footer{
+        justify-content: space-between;
+        padding: 12px;
+        align-items: center;
+        div{
+            display: flex;
+        }
+        .icon{
+            cursor: pointer;
+        }
+        .icon-fill-star{
+            color:yellow
+        }
+        .icon-fill-heart{
+            color:red
+        }
+     }
+     .media-content{
+         cursor: pointer;
+     }
+     .card-image{
+         cursor: pointer;
+     }
+}

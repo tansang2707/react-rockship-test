@@ -1,0 +1,30 @@
+.my-card-detail{
+    border-radius:8px;
+    .card-image{
+        border-radius:8px;
+        img{
+            border-radius: 8px;
+        }
+    }
+    .my-footer{
+        position: absolute;
+        width: 100%;
+        background-color: rgba($color: black, $alpha: 0.4);
+        bottom:0;
+        justify-content: space-between;
+        border-top:0px;
+        padding:12px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        div{
+            display: flex;
+        }
+        .icon{
+            color:#fff;
+            cursor: pointer;
+        }
+        .icon-fill-heart,.icon-outline-heart{
+            color:red
+        }
+    }
+}
