@@ -11,3 +11,4 @@ Các lệnh chạy app:
 - cd react-rockship-test
 - npm i
 - npm start
+- test
